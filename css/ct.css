@@ -1,0 +1,46 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    font: size 12px;
+}
+h1{
+    color: blue;
+}
+h2{
+    color: red;
+    letter-spacing:normal;
+}
+p{
+    width: auto;
+}
+#one{
+    text-align: right;
+}
+#two{
+    text-align: center;
+    font-style: italic;
+}
+#three span{
+    color:purple;
+}
+#five{
+    color: yellow;
+}
+#six{
+    color: green;
+}
+#link:link{
+    text-decoration:none;
+    color:rgb(62, 62, 225);
+}
+#link:visited{
+    text-decoration: none;
+    color: gray;
+}
+#link:hover{
+    text-decoration: underline;
+    font-size: 150%;
+}
+#link:active{
+    color: aqua;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        p{
+            font: size 12px;color:rgb(0, 56, 177)
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        home
+    </a>
+    <div id="input test">
+        <form action="#">
+            log in here<br>
+            account:&nbsp;&nbsp;&nbsp;<input type="text" name="usr-acc" /><br>
+            password: <input type="password" name="usr-pas">
+            <input type="submit" name="sub-btn" value="submit">
+            <input type="reset" name="rs-btn" value="reset">
+            <br>
+        </form>
+        <hr>
+        <form action="#">
+            gender: male <input type="radio" name="gender" value="1" checked="checked">
+            female <input type="radio" name="gender" value="2">
+            <br>
+            hobbies:<br>
+            music <input type="checkbox" name="music-op" checked="checked" value="1"><br>
+            sports: <input type="checkbox" name="spo-op" value=2 /><br>
+            reading: <input type="checkbox" name="re-op" value="3" /><br>
+        </form>
+        <!--when using the type radio, please make sure that the same group of 
+        radio should be named the same -->
+        <hr>
+    </div>
+    <div id="select test">
+        <select>
+            <option value="1">2010</option>
+            <option value="1">2011</option>
+            <option value="1">2012</option>
+            <option value="1">2013</option>
+            <option value="1">2014</option>
+            <option value="1">2015</option>
+            <option value="1" selected="selected">2016</option>
+            <option value="1">2017</option>
+            <option value="1">2018</option>
+            <option value="1">2019</option>
+        </select>
+        <hr>
+    </div>
+    <div id="textarea test">
+        <textarea rows="10" cols="60">type here...</textarea><br>
+    <form action="#">
+        <input type="submit" name="sb-btn" value="submit">
+        <input type="reset" name="r-btn" value="clear">
+    </form>
+    </div>
+
+
+    <p >
+        hello my friend!
+    </p>
+
+
+
+</body>
+</html>
